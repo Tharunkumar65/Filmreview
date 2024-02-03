@@ -21,7 +21,7 @@ const Login = () => {
         const querySnapshot= await getDocs(quer);
         querySnapshot.forEach((doc)=>{
          const _data = doc.data();
-         const isUser = bcrypt.compareSync(form.Password,_data.Password);
+         const isUser = bcrypt.compare(form.Password,_data.Password);
          if(isUser){
            useAppstate.setLogin(true);
            useAppstate.setuserName(_data.name);
