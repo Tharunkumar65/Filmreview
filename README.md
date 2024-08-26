@@ -28,15 +28,15 @@ A React-based film review application that allows users to create accounts, add 
 
 3. **Install Node.js and npm**
    - Ensure that you have `Node.js` and `npm` installed on your system.
-4.  **Install dependencies**
+4. **Install dependencies**
    - `npm install`
-5.  **Set up Firebase**
+5. **Set up Firebase**
    - Go to Firebase Console.
    - Create a new project.
    - Enable Firebase Authentication with phone number sign-in.
    - Set up Firestore for storing movies and reviews.
    - Copy your Firebase config and add it to your project.
-6.  **Start the development server**
+6. **Start the development server**
    - `npm start`
    - The application will run on `http://localhost:3000`.
 
