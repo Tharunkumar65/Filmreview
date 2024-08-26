@@ -2,7 +2,7 @@
 
 A React-based film review application that allows users to create accounts, add movies, and rate and review them. The application uses Firebase for OTP verification and movie data storage, and Tailwind CSS for styling.
 
-## Live(https://filmreview.vercel.app/)
+## [Live](https://filmreview.vercel.app/)
 
 ## Tech Stack
 - **Frontend**: React, Tailwind CSS
