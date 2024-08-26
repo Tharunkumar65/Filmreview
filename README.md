@@ -6,7 +6,7 @@ A React-based film review application that allows users to create accounts, add 
 
 ## Tech Stack
 - **Frontend**: React, Tailwind CSS
-- **Backend**: Firebase Authentication
+- **Backend**: Firebase Authentication,Firestore
 - **Styling**: Tailwind CSS
 - **Deployment**: Vercel
 
