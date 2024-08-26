@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Film Review Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based film review application that allows users to create accounts, add movies, and rate and review them. The application uses Firebase for OTP verification and movie data storage, and Tailwind CSS for styling.
 
-## Available Scripts
+## Live(https://filmreview.vercel.app/)
 
-In the project directory, you can run:
+## Tech Stack
+- **Frontend**: React, Tailwind CSS
+- **Backend**: Firebase Authentication
+- **Styling**: Tailwind CSS
+- **Deployment**: Vercel
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **User Authentication:** Users can create an account and log in using OTP verification, powered by Firebase.
+- **Add Movies:** Users can add movies to the application.
+- **Rate and Review:** Once logged in, users can rate and review movies.
+- **Responsive Design:** The application is fully responsive, ensuring a great user experience on both desktop and mobile devices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Set-Up Project on Your Machine
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Fork and Clone the Repository**
+   - Start by forking the repository and cloning it to your local machine.
 
-### `npm run build`
+2. **Create a New Branch**
+   - Create a new branch in your local repository for your work.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Install Node.js and npm**
+   - Ensure that you have `Node.js` and `npm` installed on your system.
+4.  **Install dependencies**
+   - `npm install`
+5.  **Set up Firebase**
+   - Go to Firebase Console.
+   - Create a new project.
+   - Enable Firebase Authentication with phone number sign-in.
+   - Set up Firestore for storing movies and reviews.
+   - Copy your Firebase config and add it to your project.
+6.  **Start the development server**
+   - `npm start`
+   - The application will run on `http://localhost:3000`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   Contributions are welcome! Please feel free to submit a Pull Request.
